@@ -1,0 +1,25 @@
+.navbar-container {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(21, 54, 107);
+    height: 5%;
+    padding: 20px;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+
+    button {
+        background-color: transparent;
+        border: none;
+        font-size: 20px;
+    }
+
+    button:hover{
+        cursor: pointer;
+        color: bisque;
+        transform: scale(1.10);
+        transition: 0.1s ease-in-out;
+    }
+}
+

@@ -1,0 +1,23 @@
+.product-container{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    height: fit-content;
+    margin-top: 2rem;
+    align-items: center;
+
+    background-color: rgb(21, 54, 107);
+    color:#f3f3f3e0;
+    border-radius: 20px;
+} .product-container:hover {
+    transform: scale(1.02);
+    transition: 0.1s ease-in-out;
+}
+
+img{
+    height: 200px;
+}
+
+h3{
+    white-space: nowrap;
+}
